@@ -6,3 +6,5 @@ public record WeatherReport(
     int humidity, 
     long lastUpdated
 ) {}
+
+

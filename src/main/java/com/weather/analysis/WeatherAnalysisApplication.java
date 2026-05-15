@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
-@EnableScheduling // Enables the background task scheduler
+@EnableScheduling 
 public class WeatherAnalysisApplication {
-    public static void main(String[]String[] args) {
+    public static void main(String[] args) { // <-- Fixed the double String[] typo here
         SpringApplication.run(WeatherAnalysisApplication.class, args);
     }
 }
