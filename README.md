@@ -1,5 +1,5 @@
 # Weather Analysis Module (Spring Boot)
-
+![System Architecture & API Showcase](screenshot.png)
 An enterprise-grade, end-to-end Spring Boot microservice designed to fetch, cache, and analyze real-time weather data. This module demonstrates optimized memory management using concurrent data structures, Stream API processing, and scheduled eviction patterns.
 
 ---
